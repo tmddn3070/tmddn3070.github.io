@@ -21,11 +21,13 @@ body {
   color: #141414;
 }
 
+
 a {
-  text-decoration: none;
+  text-decoration: black;
 }
+
 a:hover {
-  text-decoration: none;
+  text-decoration: darkgray;
 }
 
 img {
@@ -339,16 +341,16 @@ footer ul li a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: #333 url("https://i.ibb.co/NFLL7CN/robloxshaders.jpg") no-repeat top center;
+  background: url("images/background.jpg")
   background-size: cover;
   background-attachment: fixed;
-  filter: blur(5px);
+  filter: blur(2px);
   opacity: 0.8;
   transform: scale(1.1);
 }
 .bg-image.bg-image-2:before {
   opacity: 0.6;
-  background-image: url("https://i.ibb.co/4JfZRrC/robloxshader.jpg");
+  background-image: url("images/background.jpg")
   background-position: center center;
 }
 
